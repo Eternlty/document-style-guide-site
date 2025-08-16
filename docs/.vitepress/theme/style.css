@@ -133,9 +133,23 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-/* 取消.name和.text的文本长度限制 */
-.name[data-v-72cc4481],
-.text[data-v-72cc4481] {
+/* 取消.name和.text的文本长度限制 - 使用高特异性选择器 */
+.VPHero .main .name,
+.VPHero .main .text,
+.VPHomeHero .main .name,
+.VPHomeHero .main .text {
+  max-width: none !important;
+  white-space: normal !important;
+  overflow: visible !important;
+  word-break: break-word !important;
+  word-wrap: break-word !important;
+}
+
+/* 确保clip元素不会限制文本显示 */
+.VPHero .main .name .clip,
+.VPHero .main .text .clip,
+.VPHomeHero .main .name .clip,
+.VPHomeHero .main .text .clip {
   max-width: none !important;
   white-space: normal !important;
   overflow: visible !important;

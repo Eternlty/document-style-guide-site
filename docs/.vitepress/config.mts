@@ -5,6 +5,10 @@ export default defineConfig({
   title: "中文技术文档的写作规范",
   description: "中文技术文档的写作规范",
   base: '/document/',
+  // 启用sitemap生成
+  sitemap: {
+    hostname: 'https://eternlty.github.io/document/'
+  },
   vite: {
     build: {
       minify: 'terser',
