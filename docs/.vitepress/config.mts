@@ -5,7 +5,7 @@ export default defineConfig({
   title: "中文技术文档的写作规范",
   description: "中文技术文档的写作规范",
   head: [
-    ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['script', {}, `
 var _hmt = _hmt || [];
 (function() {
