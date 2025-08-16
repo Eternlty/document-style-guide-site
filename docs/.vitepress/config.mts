@@ -53,7 +53,7 @@ var _hmt = _hmt || [];
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/zhheo/hexo-butterfly-editor' }
+      { icon: 'github', link: 'https://github.com/Eternlty/document-style-guide-site' }
     ]
   }
 })
