@@ -246,10 +246,39 @@
   resolved "https://registry.npmmirror.com/@iconify/types/-/types-2.0.0.tgz"
   integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
 
-"@jridgewell/sourcemap-codec@^1.5.0":
+"@jridgewell/gen-mapping@^0.3.5":
+  version "0.3.13"
+  resolved "https://registry.npmmirror.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz"
+  integrity sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==
+  dependencies:
+    "@jridgewell/sourcemap-codec" "^1.5.0"
+    "@jridgewell/trace-mapping" "^0.3.24"
+
+"@jridgewell/resolve-uri@^3.1.0":
+  version "3.1.2"
+  resolved "https://registry.npmmirror.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz"
+  integrity sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==
+
+"@jridgewell/source-map@^0.3.3":
+  version "0.3.11"
+  resolved "https://registry.npmmirror.com/@jridgewell/source-map/-/source-map-0.3.11.tgz"
+  integrity sha512-ZMp1V8ZFcPG5dIWnQLr3NSI1MiCU7UETdS/A0G8V/XWHvJv3ZsFqutJn1Y5RPmAPX6F3BiE397OqveU/9NCuIA==
+  dependencies:
+    "@jridgewell/gen-mapping" "^0.3.5"
+    "@jridgewell/trace-mapping" "^0.3.25"
+
+"@jridgewell/sourcemap-codec@^1.4.14", "@jridgewell/sourcemap-codec@^1.5.0":
   version "1.5.0"
   resolved "https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.0.tgz"
   integrity sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==
+
+"@jridgewell/trace-mapping@^0.3.24", "@jridgewell/trace-mapping@^0.3.25":
+  version "0.3.30"
+  resolved "https://registry.npmmirror.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.30.tgz"
+  integrity sha512-GQ7Nw5G2lTu/BtHTKfXhKHok2WGetd4XYcVKGx00SjAk8GMwgJM3zr6zORiPGuOE+/vkc90KtTosSSvaCjKb2Q==
+  dependencies:
+    "@jridgewell/resolve-uri" "^3.1.0"
+    "@jridgewell/sourcemap-codec" "^1.4.14"
 
 "@rollup/rollup-win32-x64-msvc@4.30.0":
   version "4.30.0"
@@ -514,6 +543,11 @@
   dependencies:
     vue-demi ">=0.14.10"
 
+acorn@^8.14.0:
+  version "8.15.0"
+  resolved "https://registry.npmmirror.com/acorn/-/acorn-8.15.0.tgz"
+  integrity sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==
+
 algoliasearch@^5.14.2, "algoliasearch@>= 4.9.1 < 6":
   version "5.18.0"
   resolved "https://registry.npmmirror.com/algoliasearch/-/algoliasearch-5.18.0.tgz"
@@ -538,6 +572,11 @@ birpc@^0.2.19:
   resolved "https://registry.npmmirror.com/birpc/-/birpc-0.2.19.tgz"
   integrity sha512-5WeXXAvTmitV1RqJFppT5QtUiz2p1mRSYU000Jkft5ZUCLJIk4uQriYNO50HknxKwM6jd8utNc66K1qGIwwWBQ==
 
+buffer-from@^1.0.0:
+  version "1.1.2"
+  resolved "https://registry.npmmirror.com/buffer-from/-/buffer-from-1.1.2.tgz"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
+
 ccount@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmmirror.com/ccount/-/ccount-2.0.1.tgz"
@@ -557,6 +596,11 @@ comma-separated-tokens@^2.0.0:
   version "2.0.3"
   resolved "https://registry.npmmirror.com/comma-separated-tokens/-/comma-separated-tokens-2.0.3.tgz"
   integrity sha512-Fu4hJdvzeylCfQPp9SGWidpzrMs7tTrlu6Vb8XGaRGck8QSNZJJp538Wrb60Lax4fPwR64ViY468OIUTbRlGZg==
+
+commander@^2.20.0:
+  version "2.20.3"
+  resolved "https://registry.npmmirror.com/commander/-/commander-2.20.3.tgz"
+  integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
 copy-anything@^3.0.2:
   version "3.0.5"
@@ -861,6 +905,19 @@ source-map-js@^1.2.0, source-map-js@^1.2.1:
   resolved "https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz"
   integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
 
+source-map-support@~0.5.20:
+  version "0.5.21"
+  resolved "https://registry.npmmirror.com/source-map-support/-/source-map-support-0.5.21.tgz"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
+  dependencies:
+    buffer-from "^1.0.0"
+    source-map "^0.6.0"
+
+source-map@^0.6.0:
+  version "0.6.1"
+  resolved "https://registry.npmmirror.com/source-map/-/source-map-0.6.1.tgz"
+  integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
+
 space-separated-tokens@^2.0.0:
   version "2.0.2"
   resolved "https://registry.npmmirror.com/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz"
@@ -890,6 +947,16 @@ tabbable@^6.2.0:
   version "6.2.0"
   resolved "https://registry.npmmirror.com/tabbable/-/tabbable-6.2.0.tgz"
   integrity sha512-Cat63mxsVJlzYvN51JmVXIgNoUokrIaT2zLclCXjRd8boZ0004U4KCs/sToJ75C6sdlByWxpYnb5Boif1VSFew==
+
+terser@^5.4.0, terser@^5.43.1:
+  version "5.43.1"
+  resolved "https://registry.npmmirror.com/terser/-/terser-5.43.1.tgz"
+  integrity sha512-+6erLbBm0+LROX2sPXlUYx/ux5PyE9K/a92Wrt6oA+WDAoFTdpHE5tCYCI5PNzq2y8df4rA+QgHLJuR4jNymsg==
+  dependencies:
+    "@jridgewell/source-map" "^0.3.3"
+    acorn "^8.14.0"
+    commander "^2.20.0"
+    source-map-support "~0.5.20"
 
 trim-lines@^3.0.0:
   version "3.0.1"

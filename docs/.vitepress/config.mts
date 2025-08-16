@@ -4,8 +4,21 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "中文技术文档的写作规范",
   description: "中文技术文档的写作规范",
+  base: '/document/',
+  vite: {
+    build: {
+      minify: 'terser',
+      terserOptions: {
+        compress: {
+          drop_console: true,
+          drop_debugger: true,
+        }
+      }
+    }
+  },
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/document/img/favicon.ico' }],
+    ['link', { rel: 'shortcut icon', href: '/document/img/favicon.ico' }],
     ['script', {}, `
 var _hmt = _hmt || [];
 (function() {
