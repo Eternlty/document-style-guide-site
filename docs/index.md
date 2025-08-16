@@ -12,8 +12,6 @@ hero:
       text: 查看文档
       link: /Introduction
   image:
-    src: /img/logo.webp
-
 features:
   - title: 标题
     details: 正确撰写标题
