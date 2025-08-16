@@ -19,6 +19,14 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/document/img/favicon.ico' }],
     ['link', { rel: 'shortcut icon', href: '/document/img/favicon.ico' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdn-font.hyperos.mi.com/font/css?family=MiSans:0:Chinese_Simplify,Latin&display=swap' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Noto+Serif+SC&display=swap' }],
+    ['style', {}, `
+      :root {
+        --vp-font-family-base: 'MiSans', ui-sans-serif, system-ui, sans-serif;
+        --vp-font-family-mono: 'Source Code Pro', 'Noto Serif SC', ui-monospace, 'Menlo', 'Monaco', 'Consolas', monospace;
+      }
+    `],
     ['script', {}, `
 var _hmt = _hmt || [];
 (function() {
@@ -33,6 +41,7 @@ var _hmt = _hmt || [];
     nav: [
       { text: '首页', link: '/' },
       { text: '查看文档', link: '/Introduction' },
+      { text: '返回博客', link: 'https://eternlty.github.io' }
     ],
 
     search: {
