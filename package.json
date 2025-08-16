@@ -2,6 +2,7 @@
   "scripts": {
     "start": "npm run docs:dev",
     "s": "npm run docs:dev",
+    "g": "vitepress build docs",
     "docs:build": "vitepress build docs",
     "docs:dev": "vitepress dev docs",
     "docs:preview": "vitepress preview docs",
