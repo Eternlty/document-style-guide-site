@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "中文技术文档的写作规范",
-  description: "中文技术文档的写作规范",
+  description: "阮一峰大佬编写的中文技术文档的写作规范 - 提供标题、文本、段落、数值、标点符号等全方位的写作指导，帮助你撰写清晰、专业、易读的技术文档。",
   base: '/document/',
   // 启用sitemap生成
   sitemap: {
